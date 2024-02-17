@@ -13,7 +13,8 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    display: flex;
+    max-width: 1000px;
     margin: auto;
     overflow: hidden;
     padding: 20px;
@@ -21,6 +22,33 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.sidebar {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    background: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+}
+
 
 header h1 {
     text-align: center;
